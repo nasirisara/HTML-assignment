@@ -1,63 +1,36 @@
-body {
+body{
     width: 1024px;
     margin-left: auto;
     margin-right: auto;
-    font-family: sans-serif;
-  
-   
-    background-color: #2195f328;
-    
-  }
-  
-  
-  
-  header>nav>ul>div{
-      list-style: none; 
-      display: inline-block;
-      
-  }
-  
-  
- 
-* {
-    box-sizing: border-box;
-  }
-  
-  .flex-container {
+    font-family: sans-serif;background-color: aquamarine;
+}
+header>nav>ul{
+    list-style: none;
+}
+.flex-container{
     display: flex;
     flex-direction: row;
-    font-size: 30px;
+    font: size 10px;
     text-align: center;
-  }
-  
-  .flex-item-left {
-    background-color: #f1f1f1;
+}
+.flex-item-left{
+    background-color: bisque;
     padding: 10px;
-    flex: 50%;
-  }
-  
-  .flex-item-right1 {
-    display: inline-block;
-
-    background-color: dodgerblue;
-    padding: 10px;
-    flex: 50%;
-  }
-  .flex-item-right2 {
-    display: inline-block;
-    background-color: rgb(75, 255, 30);
-    padding: 10px;
-    flex: 50%;
-  }
-  .flex-item-right3 {
-    display: inline-block;
-    background-color: rgb(17, 38, 59);
-    padding: 10px;
-    flex: 50%;
-  }
-  .flex-item-right4 {
-    display: inline-block;
-    background-color: rgb(216, 120, 30);
-    padding: 10px;
-    flex: 50%;
-  }
+    flex-grow: 1;
+    margin-top: 0px;
+    margin-bottom: 0px;
+ }
+ .flex-item-center{
+     background-color: aqua;
+     padding: 10px;
+     flex-grow: 1;
+ }
+ header>nav>ul>li{
+    margin: auto;
+ }
+ .flex-item-right{
+     background-color: coral;
+     padding: 10px;
+     flex-grow: 1;
+     font-size: x-large;
+ }
