@@ -3,18 +3,19 @@
     <head>
         <meta charset="UTF-8">
         <title>Contact Page</title>
+        <link rel="stylesheet" href="style.css">
 
     </head>
     <body>
         <header>
-           <h1>Logo</h1> 
-           <nav>
+           <h1 id="logo">Logo</h1> 
+           <nav id="navbar">
                <ul>
                    <li><a href="loginpage.html">Museum</a></li>
                    <li><a href="loginpage.html">Monument</a></li>
                    <li><a href="loginpage.html">Amusement Park</a></li>
                </ul>
-               <a href="Basic.html">Basic</a>
+               <a id="login" href="Basic.html">Basic</a>
            </nav>
         </header>
         <main>
@@ -22,11 +23,11 @@
             
                 <form>
                     <label>Username</label>
-                    <input type="text" name="Username" placeholder="..." >
+                    <input type="email" name="Username" placeholder="Username" >
                     <label>Password</label>
-                    <input type="email" name="Password" placeholder="...">
+                    <input type="text" name="Password" placeholder="Password">
                     <button>reset</button>
-                    <button>Sign in</button>
+                    <button id="signin">Sign in</button>
 
                 </form>
 
